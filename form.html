@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <main class="container">
+        <form action="index.html">
+            <h2>Inscrição</h2>
+            <section class="inputArea">
+                <input required type="text">
+                <span>Nome Completo</span>
+            </section>
+            <section class="inputArea">
+                <input required type="text">
+                <span>Email</span>
+            </section>
+            <section class="inputArea">
+                <input required type="password">
+                <span>Senha</span>
+            </section>
+            <section class="selectOption">
+                <span>Área profissional dos sonhos</span>
+                <select required>
+                    <option value="" selected>Nenhuma área de interesse</option>
+                    <optgroup label="Humanas">
+                        <option value="Medicina">Medicina</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Espanhol">Espanhol</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="História">História</option>
+                        <option value="Gramática">Gramática</option>
+                    </optgroup>
+                    <optgroup label="Exatas">
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Física">TI</option>
+                    </optgroup>
+                </select>
+            </section>
+            <section class="CheckArea">
+                <input type="checkbox" name="check">
+                <span>Quero receber atualizações via email</span>
+            </section>
+            <section class="CheckArea">
+                <input type="checkbox" name="check">
+                <span>Gostaria de saber sobre a ODS 4</span>
+            </section>
+            <section class="buttons">
+                <input type="submit" value="Enviar">
+                <button type="reset">Cancelar</button>
+            </section>
+        </form>
+    </main>
+</body>
+</html>
